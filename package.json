@@ -9,8 +9,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs" ,
+  "type": "commonjs",
   "bin": {
-  "trakit": "./bin/trakit.js"
-}
+    "trakit": "./bin/trakit.js"
+  },
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "cli-table3": "^0.6.5",
+    "figures": "^3.2.0",
+    "ora": "^5.4.1"
+  }
 }
